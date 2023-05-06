@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <title>Add Student</title>
+        <link rel="stylesheet" href="../Style/addPage.css">
+    </head>
+    <body>
+        <div class="navBar">
+            <nav>
+                <div class="homeP">
+                    <a class="navLink" href="home.html">Home Page</a>
+                </div>
+                <div class="studP">
+                    <a class="navLink" href="StudentAffairs.html">Student Affairs</a>
+                </div>
+                <div class="addP">
+                    <a class="navLink" href="add.html">Add Students</a>
+                </div>
+                <div class="editP">
+                    <a class="navLink" href="studentinfo.html">Edit Students</a>
+                </div>
+                <div class="allP">
+                    <a class="navLink" href="active_inactive.html">All Students</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="center">
+            <div class="title">Add Student</div>
+            <form method="POST">
+                <div>
+                    <div>
+                    <input type="text" required  name="Name" class="name" placeholder="Name">
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="Date Of Birth" onfocus="(this.type='date')" required name="DOB" class="dob">
+                    </div>
+
+                    <div>
+                    <input type="Email" required  name="Email" class="email" placeholder="Email">
+                    </div>
+    
+                    <div>
+                        <input type="text" required name="mobile" class="mobile" placeholder="Phone Number">
+                    </div>
+    
+                    <div>
+                        <input type="number" required name="ID" class="id" placeholder="ID" min="0">
+                    </div>
+
+                    <div>
+                        <input type="number" required name="GPA" class="gpa" placeholder="GPA" max="4" min="0" step="0.01">
+                    </div>
+ 
+                    <div>
+                        <select name="level" class="level">
+                            <option value="" disabled selected>Level</option>
+                            <option value="1">First level</option>
+                            <option value="2">Second level</option>
+                            <option value="3">Third level</option>
+                            <option value="4">Fourth level</option>
+                        </select>
+                    </div>
+                                    
+                    <div>
+                        <select name="Department" class="department">
+                            <option value="" disabled selected>Department</option>
+                            <option value="GN">General</option>
+                            <option value="AI">Artificial Intelligence</option>
+                            <option value="CS">Computer Science</option>
+                            <option value="DS">Decision Support</option>
+                            <option value="IS">Information System</option>
+                            <option value="IT">Information Technology</option>
+                        </select>
+                    </div>
+    
+                    <div class="gen">
+                        <input id="M" type="radio" value="Male" name = "Gender" required class="gender">
+                        <label for="M" class="male"><p>Male</p></label>
+                        <input id ="F" type="radio" value="Female" name = "Gender" class="gender">
+                        <label for="F" class="female"><p>Female</p></label>
+                    </div>
+
+                    <div class="stat">
+                        <input id="A" type="radio" value="Active" name = "Status" required class="status">
+                        <label for="A" class="act"><p>Active</p></label>
+                        <input id ="I" type="radio" value="Inactive" name = "Status" class="status">
+                        <label for="I" class="inAct"><p>Inactive</p></label>
+                    </div>
+                    <button type="Submit" class="submit">Submit</button>
+                </div>
+            </form>  
+        </div>
+        <script src="../Scripts/validAdd.js"></script>
+    </body>
+</html>

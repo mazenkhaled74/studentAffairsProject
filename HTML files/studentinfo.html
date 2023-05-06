@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <title>Student Information</title>
+        <link rel="stylesheet" href="../Style/studentinfo.css">
+    </head>
+    <body>
+        <div class="navBar">
+            <nav>
+                <div class="homeP">
+                <a class="navLink" href="home.html">Home Page</a>
+                </div>
+                <div class="studP">
+                    <a class="navLink" href="StudentAffairs.html">Student Affairs</a>
+                </div>
+                <div class="addP">
+                    <a class="navLink" href="add.html">Add Students</a>
+                </div>
+                <div class="editP">
+                    <a class="navLink" href="studentinfo.html">Edit Students</a>
+                </div>
+                <div class="allP">
+                    <a class="navLink" href="active_inactive.html">All Students</a>
+                </div>
+            </nav>
+        </div>
+        <div class="center">
+            <div class="title">
+                <h2>Student Info</h2>
+            </div>
+            <div class="container">
+                <form method="POST" action="update.html" id="student-info-form">
+                    <div>
+                        <div>
+                        <input type="text" required  name="Name" class="name" placeholder="Name">
+                        </div>
+        
+                        <div>
+                        <input type="number" required name="ID" class="id" placeholder="ID">
+                        </div>
+
+                        <div>
+                            <button type="Submit" class="submit" >Submit</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <script src="../Scripts/search.js"></script>
+    </body>
+</html>

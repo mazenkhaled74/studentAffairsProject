@@ -1,0 +1,316 @@
+body{
+    background: url('../Images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.center {
+    background-color: #16293A;
+    width: 60%;
+    height: 70%;
+    border-radius: 30px;
+    position: absolute;
+    left: 20%;
+    top: 17%;
+    box-shadow: 0px 0px 35px 10px #16293A;
+    overflow: hidden;
+  }
+  
+
+.name{
+    position: absolute;
+    width: 45%;
+    height: 6%;
+    top: 15%;
+    left: 10%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+}
+
+.mobile{
+    position: absolute;
+    width: 30%;
+    height: 6%;
+    top: 15%;
+    right: 9.6%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+}
+
+.dob {
+    position: absolute;
+    width: 80%;
+    height: 6%;
+    top: 25%;
+    left: 10%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+}
+
+.email{
+    position: absolute;
+    width: 80%;
+    height: 6%;
+    top: 35%;
+    left: 10%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+}
+
+.id{
+    position: absolute;
+    width: 37.5%;
+    height: 6%;
+    top: 45%;
+    left: 10%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+}
+
+
+.gpa{
+    position: absolute;
+    width: 37.5%;
+    height: 6%;
+    top: 45%;
+    right: 9.6%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+}
+
+
+.level {
+    position: absolute;
+    width: 37.9%;
+    height: 6.4%;
+    top: 55%;
+    left: 10%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+    color: #16293A;
+    text-align: center;
+    font-size: large;
+}
+
+.department {
+    position: absolute;
+    width: 37.9%;
+    height: 6.4%;
+    top: 55%;
+    right: 9.6%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+    color: #16293A;
+    text-align: center;
+    font-size: large;
+}
+
+.gen input[type="radio"]{
+    display: none;
+}
+
+.gen input[type="radio"]:checked + label{
+    opacity: 1;
+}
+
+.male{
+    position: absolute;
+    width: 37.9%;
+    height: 6.4%;
+    top: 65%;
+    left: 10%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.female{
+    position: absolute;
+    width: 38%;
+    height: 6.4%;
+    top: 65%;
+    right: 9.6%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.stat input[type="radio"]{
+    display: none;
+}
+
+.stat input[type="radio"]:checked + label{
+    opacity: 1;
+}
+
+.act{
+    position: absolute;
+    width: 37.9%;
+    height: 6.4%;
+    top: 75%;
+    left: 10%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.inAct{
+    position: absolute;
+    width: 38%;
+    height: 6.4%;
+    top: 75%;
+    right: 9.6%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #7CCDCA;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+p{
+    margin: 0 0;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #16293A;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: #16293A;
+    font-size: large;
+}
+
+:-moz-placeholder {
+    text-align: center;
+}
+
+
+
+.submit {
+    background-color: #CAD0D8;
+    color: #16293A;
+    border-radius: 10px;
+    border-style: none;
+    position: absolute;
+    width: 25%;
+    height: 4%;
+    top: 90%;
+    left: 20.5%;
+    text-align-last: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: #CAD0D8;
+    color: #16293A;
+    border-radius: 10px;
+    border-style: none;
+    position: absolute;
+    width: 25%;
+    height: 4%;
+    top: 90%;
+    left: 54.5%;
+    text-align-last: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.delete:hover{
+    transform: translate(0px, 0px) scale(1.5, 1.5);
+}
+
+.submit:hover {
+    transform: translate(0px, 0px) scale(1.5, 1.5);
+}
+
+
+.title {
+    color: #CAD0D8;
+    position: absolute;
+    width: 100%;
+    top: 3%;
+    left: 38%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.navBar{
+    position: absolute;
+    background-color: #16293A;
+    height: 6%;
+    width: 100%;
+    left: 0%;
+    top:0%;
+    overflow: hidden;
+}
+
+.navLink{
+    text-decoration: none;
+    color: #CAD0D8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 18%;
+    width: 170%;
+    height: 85%;
+    transition: 0.5s;
+}
+
+.homeP, .studP, .allP, .editP, .addP{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:5%
+}
+
+.homeP{
+    left: 20%;
+}
+
+.studP{
+    left: 31%;
+}
+
+.addP{
+    left: 45%;
+}
+
+.editP{
+    left: 59%;
+}
+
+.allP{
+    left: 73%;
+}
+
+.navLink:hover{
+    color: #7CCDCA;
+}
+
+nav:hover .navLink:not(:hover){
+    color: #CAD0D8;
+    opacity: 0.3;
+}

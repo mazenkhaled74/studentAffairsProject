@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="UTF-8" />
+        <title>Assign Department</title>   
+        <link rel="stylesheet" href="../Style/assign_dep.css">
+    </head>
+    <body>
+        <div class="navBar">
+            <nav>
+                <div class="homeP">
+                <a class="navLink" href="home.html">Home Page</a>
+                </div>
+                <div class="studP">
+                    <a class="navLink" href="StudentAffairs.html">Student Affairs</a>
+                </div>
+                <div class="addP">
+                    <a class="navLink" href="add.html">Add Students</a>
+                </div>
+                <div class="editP">
+                    <a class="navLink" href="studentinfo.html">Edit Students</a>
+                </div>
+                <div class="allP">
+                    <a class="navLink" href="active_inactive.html">All Students</a>
+                </div>
+            </nav>
+        </div>
+        <div class="center">
+            <div class="title">
+                <h2>Assign Department</h2>
+            </div>
+            <div>
+                <form method="post" class="form">
+
+                    <div>
+                        <input type="text" required  name="Name" class="name" placeholder="Name" readonly>
+                    </div>
+                    <div>
+                        <input type="number" required name="ID" class="id" placeholder="ID" readonly>
+                    </div>
+                    <div>
+                        <select name="Department" id="Dep" class="department">
+                            <option value="" selected disabled>Department</option>
+                            <option value="AI">Artificial Intelligence</option>
+                            <option value="CS">Computer Science</option>
+                            <option value="DS">Decision Support</option>
+                            <option value="IS">Information System</option>
+                            <option value="IT">Information Technology</option>
+                        </select>
+                    </div>
+                    <br>
+                    <button type="Submit" class="submit">Save changes</button>
+                </form>
+            </div>
+
+        </div>
+        <script src="../Scripts/assign_dep.js"></script>
+    </body>
+</html>

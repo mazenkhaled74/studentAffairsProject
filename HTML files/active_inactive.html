@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>All Students</title>
+    <link rel="stylesheet" href="../Style/activeInactive.css">
+</head>
+
+<body>
+    <div class="navBar">
+        <nav>
+            <div class="homeP">
+                <a class="navLink" href="home.html">Home Page</a>
+            </div>
+            <div class="studP">
+                <a class="navLink" href="StudentAffairs.html">Student Affairs</a>
+            </div>
+            <div class="addP">
+                <a class="navLink" href="add.html">Add Students</a>
+            </div>
+            <div class="editP">
+                <a class="navLink" href="studentinfo.html">Edit Students</a>
+            </div>
+            <div class="allP">
+                <a class="navLink" href="active_inactive.html">All Students</a>
+            </div>
+        </nav>
+    </div>
+    <div id="custom">
+        <div class="check">
+            <input type="checkbox" name="activeStudents" id="filter">
+            <label class="label" for="filter">Active Students</label>
+        </div>
+    </div>
+    <div id="container">
+        <div id="tableContainer"></div>
+    </div>
+    <script src="../Scripts/showAll.js"></script>
+</body>
+</html>
